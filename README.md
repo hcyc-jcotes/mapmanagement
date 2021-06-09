@@ -1,11 +1,5 @@
 # Map Management - Team 03 
 
-## To verify test results
-Refer to Appendix A - Test report in Documentation/Testing plan_Team 03.pdf
-- For Defect/Unit Testing and Integration Testing in Django: test cases can be found in mapmanagementplatform/backend/tests.py. To execute the tests, in the `mapmangementplatform` directory, run the command  `python manage.py test` in the terminal (after activating the virtual environment). The 9 tests will be executed and result "OK" will be returned. 
-- For Defect/Unit Testing in React: test cases can be found in mapmanagementplatform/frontend/src/App.test.js. To execute the tests, in the `mapmangementplatform/frontend` directory, run the command  `npm run test` in the terminal. The 6 tests will be executed and 6 tests passed. 
-- For Integration Testing in React: test cases can be found in mapmanagementplatform/frontend/cypress/integration. To execute the tests, in the `mapmangementplatform/frontend` directory, run the command  `npm run e2e` in the terminal. The 3 tests will be executed and all specs passed. 
-
 ## To Setup the Django server
 
 In the `mapmangementplatform` directory, run the following commands to start the server (backend - Django):
@@ -33,8 +27,6 @@ Login in with user: `admin` pass: `MCIproject`
 
 If any changes are made to frontend, in order to reflect the changes on the backend server, in the `mapmangementplatform/frontend` directory, run the following command to compile the main.js file:
 ### `npm run dev`
-
-
 
 ## To Download the images
 
