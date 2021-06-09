@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>{% block title %}MCI Project{% endblock %}</title>
+</head>
+
+<body>
+    <div id="sidebar">
+        {% block sidebar %}
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/frontend">Map Management WebApp</a></li>
+            <li><a href="/response">Mapillary API</a></li>
+            <li><a href="/admin">Administration</a></li>
+            <li><a href="/api/coordinates">API Coordinates</a></li>
+            <li><a href="/api/regions">API Regions</a></li>
+            <li><a href="/api/sequences">API Sequences</a></li>
+        </ul>
+        {% endblock %}
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

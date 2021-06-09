@@ -1,0 +1,14 @@
+django 
+djangorestframework
+django-crispy-forms
+requests
+geographiclib
+matplotlib
+sklearn
+pandas
+geopy
+Shapely
+django_extensions
+scipy
+apscheduler
+django-apscheduler

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image_key": "9_pk3Ly9BbAg1lkYv8qyzQ",
+        "sequence_key": 1,
+        "direction": 280.0659887345427,
+        "neighbors": "[1, 2, 3, 4, 5]",
+        "filename": "./Images/img_9_pk3Ly9BbAg1lkYv8qyzQ.jpg",
+        "coordinates": [
+            138.5957872,
+            -34.9182049
+        ]
+    },
+    {
+        "id": 2,
+        "image_key": "z9Z9bTtxZa7WeNd4RvN3YA",
+        "sequence_key": 1,
+        "direction": 280.86269123645025,
+        "neighbors": "[2, 28851, 48709, 48708, 28852, 48710, 830, 48707, 28853, 48711, 48706, 829, 28854, 48705, 48712, 828, 48704, 827, 48713, 826, 28855, 48703, 48714]",
+        "filename": "./Images/img_z9Z9bTtxZa7WeNd4RvN3YA.jpg",
+        "coordinates": [
+            138.5956894,
+            -34.9181906
+        ]
+    },
+    {
+        "id": 3,
+        "image_key": "TrzZy4mIs84h49OjsIWXAw",
+        "sequence_key": 1,
+        "direction": 284.99232781356,
+        "neighbors": "[3, 48710, 28852, 48709, 28851, 28853, 48711, 48708, 28854, 48707, 48712, 48706, 829, 48713, 28855, 48705, 48714, 28856]",
+        "filename": "./Images/img_TrzZy4mIs84h49OjsIWXAw.jpg",
+        "coordinates": [
+            138.5955945,
+            -34.9181756
+        ]
+    },
+    {
+        "id": 4,
+        "image_key": "2ljt0nRVp3I29qBLW_CI4w",
+        "sequence_key": 1,
+        "direction": 288.30362913683405,
+        "neighbors": "[4, 28853, 48710, 48711, 28852, 28854, 48709, 48712, 28851, 48708, 48713, 28855, 48707, 48714, 48706, 28856, 48715]",
+        "filename": "./Images/img_2ljt0nRVp3I29qBLW_CI4w.jpg",
+        "coordinates": [
+            138.5954925,
+            -34.9181531
+        ]
+    },
+    {
+        "id": 5,
+        "image_key": "efEpi_mehtC1p4eR6fWhRA",
+        "sequence_key": 1,
+        "direction": 290.93291096011103,
+        "neighbors": "[5, 28854, 48711, 48712, 28853, 48710, 48713, 28855, 28852, 48709, 48714, 28851, 28856, 48708, 48715, 48707, 28857, 48716]",
+        "filename": "./Images/img_efEpi_mehtC1p4eR6fWhRA.jpg",
+        "coordinates": [
+            138.5953879,
+            -34.9181246
+        ]
+    }
+]
