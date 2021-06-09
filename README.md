@@ -17,29 +17,28 @@ Runs the app in the development mode.\
 Open http://127.0.0.1:8000/ to view it in the browser.
 The page will reload if you make edits.\
 
+## To install the ReactJS server
+
+To install the frontend and run it locally. Go in the `mapmangementplatform/frontend` directory and run:
+### `npm install`
+
+## To update the ReactJS server
+
+If any changes are made to frontend, in order to reflect the changes on the backend server, in the `mapmangementplatform/frontend` directory, run the following command to compile the main.js file:
+### `npm run dev`
+
 ## For administration purposes
 
 Run the app 
 Open http://127.0.0.1:8000/admin to view it in the browser.
 Login in with user: `admin` pass: `MCIproject`
 
-## To install the frontend
+## To Fetch information from Mapillary
 
-To install the frontend and run it locally. Go in the `mapmangementplatform/frontend` directory and run:
-### `npm install`
-
-## To update the frontend
-
-If any changes are made to frontend, in order to reflect the changes on the backend server, in the `mapmangementplatform/frontend` directory, run the following command to compile the main.js file:
-### `npm run dev`
-
-## To Download the images
-
-Run job under jobscheduler. The destination folder is: `mapmanagementplatform/backend/static/Images`
-
-## QuadTree based nearest nighbors algorithm in action
-
-Algorithm inserts and searches in O(k*Log<sub>4</sub>(n)) where k is the number of neighbors in domain.
-![Nearest nighbours](https://github.cs.adelaide.edu.au/MCI-Projects-2021/Team-03/blob/New-Layers/nearest_neighbours.png)
+Run job under jobscheduler in http://127.0.0.1:8000/admin. Be sure to have added a region before, the job will perform the following activities in order:
+1. Fetch the users and sequences.
+2. Calculate the direction for all the points.
+3. Populate the neighbours.
+4. Download the images.
 
 
