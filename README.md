@@ -41,4 +41,5 @@ Run job under jobscheduler in http://127.0.0.1:8000/admin. Be sure to have added
 3. Populate the neighbours.
 4. Download the images.
 
+For more information regarding the jobscheduler please refer to https://github.com/jcass77/django-apscheduler
 
