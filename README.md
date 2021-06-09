@@ -23,6 +23,11 @@ Run the app
 Open http://127.0.0.1:8000/admin to view it in the browser.
 Login in with user: `admin` pass: `MCIproject`
 
+## To install the frontend
+
+To install the frontend and run it locally. Go in the `mapmangementplatform/frontend` directory and run:
+### `npm install`
+
 ## To update the frontend
 
 If any changes are made to frontend, in order to reflect the changes on the backend server, in the `mapmangementplatform/frontend` directory, run the following command to compile the main.js file:
