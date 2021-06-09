@@ -35,11 +35,13 @@ Login in with user: `admin` pass: `MCIproject`
 
 ## To Fetch information from Mapillary
 
-Run job under jobscheduler in http://127.0.0.1:8000/admin. Be sure to have added a region before, the job will perform the following activities in order:
+For more information regarding the jobscheduler please refer to https://github.com/jcass77/django-apscheduler
+
+Once the scheduler has been implemented, run the job under jobscheduler in http://127.0.0.1:8000/admin. Be sure to have added a region before, the job will perform the following activities in order:
 1. Fetch the users and sequences.
 2. Calculate the direction for all the points.
 3. Populate the neighbours.
 4. Download the images.
 
-For more information regarding the jobscheduler please refer to https://github.com/jcass77/django-apscheduler
+
 
