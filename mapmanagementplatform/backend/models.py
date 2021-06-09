@@ -54,6 +54,7 @@ class Coordinate_property(models.Model):
     neighbors = models.CharField(null=True, max_length=200) # Id of  neighbors of the particular coordinate
     weather = models.CharField(max_length=200, default= 'N.A.') # Describe the weather N.A
     filename = models.CharField(null=True, max_length=200) # Name of the file where the image is stored
+
     
     def __str__(self):
         return self.image_key

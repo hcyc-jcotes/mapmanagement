@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/mapmanagementplatform/backend/static/Images
 /mapmanagementplatform/backend/__pycache__
 /mapmanagementplatform/.vs
 /mapmanagementplatform/mapmanagementplatform/__pycache__
